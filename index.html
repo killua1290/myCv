@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="floating-btns">
+        <button class="action-btn theme-btn" id="themeToggle" title="Toggle Dark Mode"><i class="fas fa-moon"></i></button>
+        <button class="action-btn download-btn" onclick="window.print()" title="Download PDF"><i class="fas fa-file-pdf"></i></button>
+    </div>
+
+    <div class="container">
+        <header>
+            <img src="https://ui-avatars.com/api/?name=Muhammed+Teftenazi&background=4F46E5&color=fff&size=150" alt="Muhammed TEFTENAZI" class="profile-img">
+            <h1>Muhammed TEFTENAZI</h1>
+            <div class="tagline">System Administrator / Developer</div>
+            <div class="contact-info">
+                <a href="mailto:mhamadtftnaz11@gmail.com"><i class="fas fa-envelope"></i> mhamadtftnaz11@gmail.com</a>
+                <a href="tel:+905355825662"><i class="fas fa-phone"></i> +90 535 582 56 62</a>
+                <span><i class="fas fa-map-marker-alt"></i> Kahramanmaraş, Türkiye</span>
+                <a href="https://mtaftnazi.me" target="_blank"><i class="fas fa-globe"></i> mtaftnazi.me</a>
+            </div>
+        </header>
+
+        <section class="section-card">
+            <h2 class="section-title"><i class="fas fa-user"></i> About Me</h2>
+            <p class="item-desc">
+                Dedicated System Administrator and Developer with hands-on experience in managing Linux environments and setting up VPS infrastructure. Skilled in foundational SSH configurations, system updates, and deploying hosting solutions via Pterodactyl Panel. Possess a strong academic background in algorithm design and object-oriented programming (C#, C++), combined with practical knowledge of daily-driver Linux distributions. Always eager to learn, optimize systems, and solve complex logical problems.
+            </p>
+        </section>
+
+        <section class="section-card">
+            <h2 class="section-title"><i class="fas fa-code"></i> Skills & Technologies</h2>
+            
+            <h3 class="skills-category"><i class="fas fa-server"></i> System Administration & OS</h3>
+            <div class="skills-container">
+                <span class="skill-tag" data-tooltip="Familiar with rolling-release systems and pacman package manager. Experienced the joy of frequent updates!">Arch Linux</span>
+                <span class="skill-tag" data-tooltip="Capable of setting up servers, updating systems, and AI-assisted troubleshooting.">Ubuntu</span>
+                <span class="skill-tag" data-tooltip="Hands-on experience with this Arch-based distro.">Manjaro</span>
+                <span class="skill-tag" data-tooltip="Current daily driver (GNOME). Comfortable navigating Fedora-based systems.">Nobara</span>
+                <span class="skill-tag" data-tooltip="Familiar with Debian-based terminals and environments.">Pop!_OS</span>
+                <span class="skill-tag" data-tooltip="Daily Windows driver. Experienced in utilizing debloated builds for optimized performance.">Ghost Spectre (Win)</span>
+                <span class="skill-tag" data-tooltip="Proficient in initial server updates, security prep, and configuring environments.">VPS Management</span>
+                <span class="skill-tag" data-tooltip="Familiar with SSH key generation, basic permissions (chmod/chown), and essential CLI tools (wget, git).">SSH / Root Tweaking</span>
+                <span class="skill-tag" data-tooltip="Capable of deploying Pterodactyl from scratch to set up a reliable hosting platform.">Pterodactyl Panel</span>
+                <span class="skill-tag" data-tooltip="Experienced with Magisk root, modules, and system-level Android modifications.">Android Rooting (Magisk)</span>
+            </div>
+
+            <h3 class="skills-category"><i class="fas fa-laptop-code"></i> Development & Programming</h3>
+            <div class="skills-container">
+                <span class="skill-tag" data-tooltip="Strong academic foundation from university. Solid grasp of core programming concepts.">C# & C++</span>
+                <span class="skill-tag" data-tooltip="University-level background. Capable of understanding and writing basic scripts.">VBA & VB</span>
+                <span class="skill-tag" data-tooltip="Highly confident in logical thinking and solving complex problems via pseudocode.">Algorithms & Pseudocode</span>
+                <span class="skill-tag" data-tooltip="Familiar with automating repetitive tasks using basic scripting.">Automation Scripts</span>
+                <span class="skill-tag" data-tooltip="Understanding of core logic required for basic modifications.">Plugin Development</span>
+            </div>
+        </section>
+
+        <section class="section-card">
+            <h2 class="section-title"><i class="fas fa-briefcase"></i> Projects & Experience</h2>
+            
+            <div class="timeline-item">
+                <div class="item-header">
+                    <div class="item-title">Server Administrator & Host</div>
+                    <div class="item-date">Recent</div>
+                </div>
+                <div class="item-subtitle">Independent Projects</div>
+                <p class="item-desc">
+                    Deployed and managed scalable VPS infrastructure running Linux. Set up and administered Pterodactyl panel instances dedicated to hosting game servers and web environments. Focused on initial server preparation, applying essential SSH configurations, managing basic permissions, and utilizing CLI tools to maintain stable operations.
+                </p>
+            </div>
+
+            <div class="timeline-item">
+                <div class="item-header">
+                    <div class="item-title">Software Developer</div>
+                    <div class="item-date">Previous</div>
+                </div>
+                <div class="item-subtitle">Freelance & Academic Projects</div>
+                <p class="item-desc">
+                    Designed and built basic software solutions leveraging VBA, VB, C#, and C++. Applied strong algorithmic thinking and pseudocode to plan logic flows and implement structured code seamlessly.
+                </p>
+            </div>
+        </section>
+
+        <section class="section-card">
+            <h2 class="section-title"><i class="fas fa-graduation-cap"></i> Education</h2>
+            
+            <div class="timeline-item">
+                <div class="item-header">
+                    <div class="item-title">Management Information Systems / IT</div>
+                </div>
+                <div class="item-subtitle">Anadolu Üniversitesi</div>
+                <p class="item-desc">
+                    Coursework program includes: <strong>UX/UI Design</strong>, <strong>IT Law & Web Ethics</strong>, <strong>Spreadsheet Programming</strong>, <strong>Advanced & Database Programming</strong>, <strong>Unix System Administration</strong>, <strong>Network Management & Information Security</strong>, <strong>Data Structures & Algorithms</strong>, and <strong>Web & Mobile App Development</strong>.
+                </p>
+            </div>
+        </section>
+
+        <section class="section-card">
+            <h2 class="section-title"><i class="fas fa-language"></i> Languages</h2>
+            <div class="skills-container" style="margin-bottom: 0;">
+                <span class="skill-tag" data-tooltip="Mother tongue">Arabic (Native)</span>
+                <span class="skill-tag" data-tooltip="Highly proficient in speaking, reading, and writing">Turkish (Fluent)</span>
+                <span class="skill-tag" data-tooltip="Capable of reading documentation and professional communication">English (Professional)</span>
+            </div>
+        </section>
+        
+    </div>
+
+    <!-- Link to external JS file -->
+    <script src="script.js"></script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="floating-btns">
+        <button class="action-btn theme-btn" id="themeToggle" title="Toggle Dark Mode"><i class="fas fa-moon"></i></button>
+        <button class="action-btn download-btn" onclick="window.print()" title="Download PDF"><i class="fas fa-file-pdf"></i></button>
+    </div>
+
+    <div class="container">
+        <header>
+            <img src="https://ui-avatars.com/api/?name=Muhammed+Teftenazi&background=4F46E5&color=fff&size=150" alt="Muhammed TEFTENAZI" class="profile-img">
+            <h1>Muhammed TEFTENAZI</h1>
+            <div class="tagline">System Administrator / Developer</div>
+            <div class="contact-info">
+                <a href="mailto:mhamadtftnaz11@gmail.com"><i class="fas fa-envelope"></i> mhamadtftnaz11@gmail.com</a>
+                <a href="tel:+905355825662"><i class="fas fa-phone"></i> +90 535 582 56 62</a>
+                <span><i class="fas fa-map-marker-alt"></i> Kahramanmaraş, Türkiye</span>
+                <a href="https://mtaftnazi.me" target="_blank"><i class="fas fa-globe"></i> mtaftnazi.me</a>
+            </div>
+        </header>
+
+        <section class="section-card">
+            <h2 class="section-title"><i class="fas fa-user"></i> About Me</h2>
+            <p class="item-desc">
+                Dedicated System Administrator and Developer with hands-on experience in managing Linux environments and setting up VPS infrastructure. Skilled in foundational SSH configurations, system updates, and deploying hosting solutions via Pterodactyl Panel. Possess a strong academic background in algorithm design and object-oriented programming (C#, C++), combined with practical knowledge of daily-driver Linux distributions. Always eager to learn, optimize systems, and solve complex logical problems.
+            </p>
+        </section>
+
+        <section class="section-card">
+            <h2 class="section-title"><i class="fas fa-code"></i> Skills & Technologies</h2>
+            
+            <h3 class="skills-category"><i class="fas fa-server"></i> System Administration & OS</h3>
+            <div class="skills-container">
+                <span class="skill-tag" data-tooltip="Familiar with rolling-release systems and pacman package manager. Experienced the joy of frequent updates!">Arch Linux</span>
+                <span class="skill-tag" data-tooltip="Capable of setting up servers, updating systems, and AI-assisted troubleshooting.">Ubuntu</span>
+                <span class="skill-tag" data-tooltip="Hands-on experience with this Arch-based distro.">Manjaro</span>
+                <span class="skill-tag" data-tooltip="Current daily driver (GNOME). Comfortable navigating Fedora-based systems.">Nobara</span>
+                <span class="skill-tag" data-tooltip="Familiar with Debian-based terminals and environments.">Pop!_OS</span>
+                <span class="skill-tag" data-tooltip="Daily Windows driver. Experienced in utilizing debloated builds for optimized performance.">Ghost Spectre (Win)</span>
+                <span class="skill-tag" data-tooltip="Proficient in initial server updates, security prep, and configuring environments.">VPS Management</span>
+                <span class="skill-tag" data-tooltip="Familiar with SSH key generation, basic permissions (chmod/chown), and essential CLI tools (wget, git).">SSH / Root Tweaking</span>
+                <span class="skill-tag" data-tooltip="Capable of deploying Pterodactyl from scratch to set up a reliable hosting platform.">Pterodactyl Panel</span>
+                <span class="skill-tag" data-tooltip="Experienced with Magisk root, modules, and system-level Android modifications.">Android Rooting (Magisk)</span>
+            </div>
+
+            <h3 class="skills-category"><i class="fas fa-laptop-code"></i> Development & Programming</h3>
+            <div class="skills-container">
+                <span class="skill-tag" data-tooltip="Strong academic foundation from university. Solid grasp of core programming concepts.">C# & C++</span>
+                <span class="skill-tag" data-tooltip="University-level background. Capable of understanding and writing basic scripts.">VBA & VB</span>
+                <span class="skill-tag" data-tooltip="Highly confident in logical thinking and solving complex problems via pseudocode.">Algorithms & Pseudocode</span>
+                <span class="skill-tag" data-tooltip="Familiar with automating repetitive tasks using basic scripting.">Automation Scripts</span>
+                <span class="skill-tag" data-tooltip="Understanding of core logic required for basic modifications.">Plugin Development</span>
+            </div>
+        </section>
+
+        <section class="section-card">
+            <h2 class="section-title"><i class="fas fa-briefcase"></i> Projects & Experience</h2>
+            
+            <div class="timeline-item">
+                <div class="item-header">
+                    <div class="item-title">Server Administrator & Host</div>
+                    <div class="item-date">Recent</div>
+                </div>
+                <div class="item-subtitle">Independent Projects</div>
+                <p class="item-desc">
+                    Deployed and managed scalable VPS infrastructure running Linux. Set up and administered Pterodactyl panel instances dedicated to hosting game servers and web environments. Focused on initial server preparation, applying essential SSH configurations, managing basic permissions, and utilizing CLI tools to maintain stable operations.
+                </p>
+            </div>
+
+            <div class="timeline-item">
+                <div class="item-header">
+                    <div class="item-title">Software Developer</div>
+                    <div class="item-date">Previous</div>
+                </div>
+                <div class="item-subtitle">Freelance & Academic Projects</div>
+                <p class="item-desc">
+                    Designed and built basic software solutions leveraging VBA, VB, C#, and C++. Applied strong algorithmic thinking and pseudocode to plan logic flows and implement structured code seamlessly.
+                </p>
+            </div>
+        </section>
+
+        <section class="section-card">
+            <h2 class="section-title"><i class="fas fa-graduation-cap"></i> Education</h2>
+            
+            <div class="timeline-item">
+                <div class="item-header">
+                    <div class="item-title">Management Information Systems / IT</div>
+                </div>
+                <div class="item-subtitle">Anadolu Üniversitesi</div>
+                <p class="item-desc">
+                    Coursework program includes: <strong>UX/UI Design</strong>, <strong>IT Law & Web Ethics</strong>, <strong>Spreadsheet Programming</strong>, <strong>Advanced & Database Programming</strong>, <strong>Unix System Administration</strong>, <strong>Network Management & Information Security</strong>, <strong>Data Structures & Algorithms</strong>, and <strong>Web & Mobile App Development</strong>.
+                </p>
+            </div>
+        </section>
+
+        <section class="section-card">
+            <h2 class="section-title"><i class="fas fa-language"></i> Languages</h2>
+            <div class="skills-container" style="margin-bottom: 0;">
+                <span class="skill-tag" data-tooltip="Mother tongue">Arabic (Native)</span>
+                <span class="skill-tag" data-tooltip="Highly proficient in speaking, reading, and writing">Turkish (Fluent)</span>
+                <span class="skill-tag" data-tooltip="Capable of reading documentation and professional communication">English (Professional)</span>
+            </div>
+        </section>
+        
+    </div>
+
+    <!-- Link to external JS file -->
+    <script src="script.js"></script>
+</body>
+</html>
